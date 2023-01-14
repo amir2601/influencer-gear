@@ -1,0 +1,73 @@
+/* ------------------ MEDIA QUERY ----------------- */
+
+/* --------------- Mobile Devices -------------- */
+@media only screen and (max-width: 688px) {
+    .nav-bar, .brand-container, .featured-products {
+        display: none;
+    }
+    
+    /* Nav Bar */
+    .m-query-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* Header */
+    header {
+        padding: 35px 15px;
+    }
+    .header-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 50px;
+    }
+    .header-img img {
+        width: 100%;
+    }
+    .header-text {
+        text-align: center;
+    }
+    .header-title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    /* Brand Container */
+    .brands-logo {
+        width: 257px;
+        margin: 0 auto;
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .brands-logo img {
+        width: 50px;
+    }
+    /* Popular Section */
+    .popular-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Featuredproducts */
+    .feature-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .m-featured {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .m-featured img {
+        width: 300px;
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .m-query-nav, .m-featured, .m-brand-container {
+        display: none;
+    }
+}

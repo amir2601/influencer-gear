@@ -191,7 +191,7 @@ header {
 
 /* ------------------ Featured Section Styles ----------------- */
 
-.featured-products {
+.featured-products, .m-query-featured-products {
     display: flex;
     justify-content: center;
     gap: 95px;
@@ -214,6 +214,7 @@ header {
     padding: 10px 24px;
     border: 0;
 }
+
 /* ----------------- Footer Section Syles ----------------- */
 
 footer {
@@ -238,3 +239,8 @@ footer {
     display: flex;
     gap: 16px;
 }
+
+/* ------------------ MEDIA QUERY ----------------- */
+
+/* --------------- Mobile Devices -------------- */
+
